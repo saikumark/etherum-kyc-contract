@@ -1,0 +1,8 @@
+miner.start(1)
+miner.getBalance(eth.accounts[0])
+miner.balance(eth.accounts[0])
+personal.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[0])
+miner.stop()
+\`exit
+miner.start(1)
